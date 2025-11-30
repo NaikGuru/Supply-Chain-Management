@@ -1,55 +1,123 @@
+📊 AtliQ Mart – OTIF Delivery Performance Dashboard
 
-![Atliq Mart](https://github.com/Ben-Joan/Atliq-Mart/blob/main/ATLIQ.png)
+Supply Chain Analytics | Power BI | DAX | Data Modeling
 
-# Problem Statement
-AtliQ Mart is a growing FMCG manufacturer headquartered in Gujarat, India. It is currently operational in three cities Surat, Ahmedabad and Vadodra. They want to expand to other metro/tier1 cities in the next 2 years.
+⭐ Project Overview
 
-AtliQ Mart is currently facing a problem where a few key customers did not extend the annual contract due to service issues. It is speculated that some of the essential products were either not delivered on time or not delivered in full over a continued period, which could have resulted in bad customer service. Management wants to fix this issue before expanding to other cities and requested their supply chain analytics team to track the ’On time’ and ‘In Full’ delivery service level for all the customers on a daily basis so that they can respond swiftly to these issues.
+AtliQ Mart is a fast-growing FMCG manufacturer headquartered in Gujarat, India and currently operating in Surat, Ahmedabad, and Vadodara. The company plans to expand into metro/tier-1 cities but is currently facing challenges due to poor delivery performance.
 
-The Supply Chain team decided to use a standard approach to measure the service level in which they will measure ‘on-time delivery (OT) %’, ‘In-full delivery (IF) %’ and OnTime in full (OTIF) % of the customer orders on a daily basis against the target service level set for each customer.
+Several key customers have not renewed their annual contracts due to issues with:
 
-## Task  
-As the data analyst in the supply chain team who joined Atliq Mart recently. You have been briefed about the the task in the stakeholder business review meeting. Now Imagine yourself play the role of the new data analyst who is excited to build this dashboard and perform the following task
+❌ Late deliveries
 
-1.Create the metrics according to the metrics list.
+❌ Incomplete deliveries
 
-2.Create a dashboard according to the requirements provided by stakeholders in the business review meeting. You will be provided with the transcript of this business review meeting in the form of a comic.
+This has directly affected the On-Time, In-Full, and OTIF service levels.
 
-3.Create relevant insights that are not provided in the metric list/stakeholder meeting
- 
-## **Datasource**
-The data, metrics list, domain concepts, business stakeholder meetings can all be sourced on [codebasics.io](https://codebasics.io/event/codebasics-resume-project-challenge)
+To solve this, the Supply Chain Analytics team wants a dashboard that tracks OT, IF, and OTIF performance daily, enabling the company to take corrective actions quickly.
 
-## Data Cleaning and Transformation
-To perform this task, the process involved were:
+As the newly joined Data Analyst, your role is to build this analytics solution.
 
-1.Importing data as a CSV file and creating a data model from scratch to link the tables 
+🎯 Business Objectives
 
-![Data Model](https://github.com/Ben-Joan/Atliq-Mart/blob/main/Screenshot%20(177).png)
-                    **power BI Data Modeling**
+The project aims to:
 
-2. Using the appropriate data types and creating calculated columns to aid in providing more insights
+✔ Measure and track On-Time Delivery (OT%)
 
-3. Creating Measures & calculations using DAX to track requested metrics, like;
+✔ Measure In-Full Delivery (IF%)
 
-    a. DOT% - Delivery on Time
-    
-    b. DIF% - Delivery in Full
-    
-    c. OTIF% - On Time In Full
-    
-    d. Total orders and Total Orderlines
-    
-    e. LIFR% - Line Fill Rate
-    
-    f. VOFR% - Volume Fill Rate
-    
-    g. Delivery Days, etc
-    
- 4. Creating tooltips and visuals using appropriate charts to communicate findings
+✔ Track combined On-Time In-Full (OTIF%)
+
+✔ Provide daily monitoring against target service levels
+
+✔ Identify patterns and insights to improve customer service
+
+📁 Data Source
+
+All data, business requirement documents, stakeholder meeting comics, and metric definitions are from:
+🔗 https://codebasics.io/event/codebasics-resume-project-challenge
+
+🧹 Data Cleaning & Transformation
+1. Data Import & Modeling
+
+Imported raw CSV files into Power BI
+
+Built a data model from scratch, establishing correct relationships
 
 
-## **Insights**
-[![Power_BI REPORT](https://img.shields.io/badge/Power_BI_REPORT-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://app.powerbi.com/view?r=eyJrIjoiNmNmOTk1NTgtYWQ4OS00OWNkLWJiMDAtNmMxM2ZlNjNiNmVmIiwidCI6IjI5NzJkZWU0LWM2YjQtNDZiNy05NDQwLTk4ZDdiNWU5YWY5MiJ9&pageName=ReportSection51bf5bebe37e695fb7b0)
+Power BI Data Modeling
 
-click to view power BI dashboard
+2. Data Preparation
+
+Assigned proper data types
+
+Created calculated columns for additional insights
+
+3. DAX Metrics Created
+
+✔ Delivery On-Time % (DOT%)
+✔ Delivery In-Full % (DIF%)
+✔ OTIF%
+✔ Total Orders
+✔ Total Order Lines
+✔ LIFR% — Line Fill Rate
+✔ VOFR% — Volume Fill Rate
+✔ Delivery Days
+✔ Additional supporting measures
+
+4. Dashboard & Tooltips
+
+Created a sleek, interactive Power BI dashboard
+
+Used appropriate visuals and slicers for user-friendly analysis
+
+📊 Power BI Dashboard
+
+Click below to view the LIVE Report:
+
+🔍 Insights Generated
+
+Below is a summary of key insights (additional insights beyond stakeholder expectations were included):
+
+1. Performance Trends
+
+Significant variation in OT, IF, and OTIF across dates
+
+Certain customers consistently fall below OTIF targets
+
+2. Customer-Level Insights
+
+Top customers contributing most to OTIF failures
+
+Customers facing frequent partial deliveries (IF failures)
+
+3. Operational Patterns
+
+Delays linked to specific product categories
+
+Line Fill Rate (LIFR) and Volume Fill Rate (VOFR) reveal packaging inefficiencies
+
+4. Improvement Opportunities
+
+Targeted improvement areas identified for logistics
+
+Recommendations for delivery schedule optimization and warehouse allocation
+
+🛠 Tools & Technologies
+Tool	Purpose
+Power BI	Dashboarding & Visualization
+DAX	Measures & KPIs
+Power Query	Data Cleaning
+CSV Files	Data Source
+Data Modeling	Relationship building
+📎 Project Structure
+AtliQ-Mart-OTIF-Analysis/
+│
+├── Data/                 # Raw CSV files
+├── PBIX/                 # Power BI report file
+├── Images/               # Screenshots & visuals
+└── README.md             # Documentation
+
+📬 Connect
+
+If you found this project helpful, feel free to ⭐ the repo or connect with me on LinkedIn!
