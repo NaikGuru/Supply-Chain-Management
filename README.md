@@ -71,11 +71,7 @@ Created a sleek, interactive Power BI dashboard
 
 Used appropriate visuals and slicers for user-friendly analysis
 
-📊 Power BI Dashboard
-
-Click below to view the LIVE Report:
-
-🔍 Insights Generated
+<img src='https://github.com/Naveen-S6/AtliQ_Hospitality_Analysis_PowerBI/blob/main/resources/data_model.png' height="400">
 
 Below is a summary of key insights (additional insights beyond stakeholder expectations were included):
 
