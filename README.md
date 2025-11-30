@@ -1,4 +1,4 @@
-📊 AtliQ Mart – OTIF Delivery Performance Dashboard
+<img width="1185" height="741" alt="supply1" src="https://github.com/user-attachments/assets/45e9d6a4-b8ca-4cf2-a45e-3851cdefce5d" />📊 AtliQ Mart – OTIF Delivery Performance Dashboard
 
 Supply Chain Analytics | Power BI | DAX | Data Modeling
 
@@ -72,6 +72,8 @@ Created a sleek, interactive Power BI dashboard
 Used appropriate visuals and slicers for user-friendly analysis
 
 <img src='https://github.com/Naveen-S6/AtliQ_Hospitality_Analysis_PowerBI/blob/main/resources/data_model.png' height="400">
+
+
 
 Below is a summary of key insights (additional insights beyond stakeholder expectations were included):
 
